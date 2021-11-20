@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    
+}
+        
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 60px;
+}
+
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.nav a{
+    color: #666;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.active{
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #222;
+    
+}
+
+.nav__input input{
+    width: 150px;
+    border: none;
+    border-bottom: 1.4px solid #333;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    margin-right: 200px;
+    outline: none;
+    
+}
+
+.bgimge{
+    background-image: url(../img/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 900px 20px;
+    height: 100vh;
+    box-shadow: 0 .5px 0 0px #99999998;
+}
+
+.freedom{
+    height: 90vh;
+    font-size: 16px;
+    padding-top: 150px;
+    
+}
+.freedom h1{
+    color: #222;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+.freedom__text{
+    width: 400px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    border-left: 3px solid #777;
+    color: #777;
+
+}
+.link{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 30px;
+    background-color: #eb5237;
+    transition: .5s ease;
+}
+.link:hover{
+    background: linear-gradient(to left, #eb5237, #bd6556 );
+}
+        
+.section__reference{
+    display: flex;
+    justify-content: space-between;
+}
+.section__reference h4{
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.section__reference p{
+    width: 300px;
+    line-height: 28px;
+}
+.elements{
+    display: flex;
+    margin-top: 15px;
+}
+.element{
+    margin-right: 15px;
+    width: 5px;
+    height: 5px;
+    background-color: #7BE9A3; 
+}
+.just__learn{
+    display: flex;
+    align-items: center;
+    transition: .5s ease;
+    text-decoration: none;
+    font-weight: 700;
+    color: tomato;
+    margin-bottom: 200px;
+    transition: .5s ease;
+}
+.h_rool{
+    width: 50px;
+    height: 3px;
+    background-color: tomato;
+    margin-right: 20px;
+
+    transition: .5s ease;
+}
+.just__learn:hover .h_rool{
+    width: 70px;
+    
+}
+
+.buy-now{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.buy-now h2{
+    font-size: 36px;
+    width: 275px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.explore{
+    height: 100vh;
+    background-image: url(../img/runners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.explore h2{
+    font-size: 36px;
+    width: 275px;
+    color: #fff;
+    margin-bottom: 40px;
+    padding-top: 200px;
+}
+.explore{
+    width: 1180px;
+    margin: 0 auto;
+}
+.container-take{
+    padding-left: 800px;
+}
+
+.explore__text{
+    width: 400px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    border-left: 3px solid #fff;
+    color: #fff;
+}
